@@ -1,6 +1,0 @@
-[rtx-repo]
-name=RTX Repo
-baseurl=https://rtx.pub/rpm
-enabled=1
-gpgcheck=1
-gpgkey=http://rtx.pub/gpg-key.pub
