@@ -5,7 +5,7 @@ set -eu -o pipefail
 echo "$ASDF_INSTALL_VERSION" > "$ASDF_INSTALL_PATH/VERSION"
 bin_path="$ASDF_INSTALL_PATH/bin"
 mkdir -p "$bin_path"
-cat <<EOF >"$bin_path/rtx-tiny"
+cat <<EOF >"$bin_path/mise-tiny"
 #!/usr/bin/env bash
 echo mise-tiny: v"$ASDF_INSTALL_VERSION"
 EOF
