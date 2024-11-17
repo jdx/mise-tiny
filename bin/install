@@ -7,6 +7,6 @@ bin_path="$ASDF_INSTALL_PATH/bin"
 mkdir -p "$bin_path"
 cat <<EOF >"$bin_path/rtx-tiny"
 #!/usr/bin/env bash
-echo rtx-tiny: v"$ASDF_INSTALL_VERSION" args: "\$@"
+echo mise-tiny: v"$ASDF_INSTALL_VERSION"
 EOF
 chmod +x "$bin_path/rtx-tiny"
