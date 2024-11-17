@@ -9,4 +9,4 @@ cat <<EOF >"$bin_path/mise-tiny"
 #!/usr/bin/env bash
 echo mise-tiny: v"$ASDF_INSTALL_VERSION"
 EOF
-chmod +x "$bin_path/rtx-tiny"
+chmod +x "$bin_path/mise-tiny"
